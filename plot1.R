@@ -3,7 +3,7 @@ plot1 <- function(){
   source('./load_data.R')
   
   #set graphic device as png
-  png(filename="plot1.png")
+  png(filename="plot1.png",bg="transparent")
   
   hist(hpcData$Global_active_power,           #plot histogram
        col="red",                             #set color to red

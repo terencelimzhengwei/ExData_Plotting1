@@ -3,7 +3,7 @@ plot4 <- function(){
   source('./load_data.R')
   
   #set graphic device as png
-  png(filename="plot4.png")
+  png(filename="plot4.png",bg="transparent")
   
   # set charts to plot -> 2 x 2
   attach(hpcData)

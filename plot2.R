@@ -3,7 +3,7 @@ plot2 <- function(){
   source('./load_data.R')
   
   #set graphic device as png
-  png(filename="plot2.png")
+  png(filename="plot2.png",bg="transparent")
   
   
   plot(hpcData$Time,                           #plot line chart

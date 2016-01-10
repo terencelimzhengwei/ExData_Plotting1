@@ -3,7 +3,7 @@ plot3 <- function(){
   source('./load_data.R')
   
   #set graphic device as png
-  png(filename="plot3.png")
+  png(filename="plot3.png",bg="transparent")
   
   
   plot(hpcData$Time, hpcData$Sub_metering_1,  #plot line chart of Time vs Sub metering 1

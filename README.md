@@ -110,5 +110,23 @@ The four plots that you will need to construct are shown below.
 
 ### Plot 4
 
-![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5.png) 
+![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5.png)
 
+# 
+
+## Instructions to recreate plots
+
+1. Clone this repository to your computer by running the command
+	```
+	git clone https://github.com/terencelimzhengwei/ExData_Plotting1.git
+	```
+2. Download the dataset from:
+	* <b>Dataset</b>: <a href="https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip">Electric power consumption</a> [20Mb]
+3. Extract the txt file "household_power_consumption.txt" to the working directory.
+4. In order to recreate the plot 1 open R:
+	1. set working directory using the `setwd()` function
+	2. run `source(./plot1.R)`
+	3. call the function `plot1()`
+5. In order to recreate the rest of the plots:
+	1. source the relevant R files i.e `plot2.R`, `plot3.R`, `plot4.R`
+	2. call the relevant functions i.e `plot2()`, `plot3()`, `plot4()`
